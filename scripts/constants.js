@@ -1,3 +1,5 @@
+const canvas = document.getElementById('pongCanvas');
+
 // Game constants
 export const PADDLE_WIDTH = 10;
 export const PADDLE_HEIGHT = 80;
