@@ -1,3 +1,5 @@
+import { canvas } from './game.js';
+
 // State
 export let playerY = canvas.height / 2 - PADDLE_HEIGHT / 2;
 export let aiY = canvas.height / 2 - PADDLE_HEIGHT / 2;
