@@ -21,7 +21,7 @@ let playerScore = 0;
 let aiScore = 0;
 
 // Mouse control
-canvas.addEventListener('mousemove', function(e) {
+canvas.addEventListener('mousemove', (e) => {
   const rect = canvas.getBoundingClientRect();
   let mouseY = e.clientY - rect.top;
   playerY = mouseY - PADDLE_HEIGHT / 2;
