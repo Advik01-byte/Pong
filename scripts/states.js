@@ -1,4 +1,4 @@
-const canvas = getElementById('pongCanvas');
+const canvas = document.getElementById('pongCanvas');
 
 // State
 export let playerY = canvas.height / 2 - PADDLE_HEIGHT / 2;
