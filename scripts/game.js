@@ -1,4 +1,5 @@
 import { draw, gameLoop, updateAI, updateBall, resetBall } from './functions.js';
+import { PADDLE_WIDTH, PADDLE_HEIGHT, BALL_SIZE, PLAYER_X, AI_X, PADDLE_SPEED, BALL_SPEED } from './constants.js';
 
 const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
