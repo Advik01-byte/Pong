@@ -1,3 +1,5 @@
+import { PADDLE_HEIGHT, BALL_SIZE, BALL_SPEED } from './constants.js';
+
 const canvas = document.getElementById('pongCanvas');
 
 // State
