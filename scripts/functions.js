@@ -1,6 +1,7 @@
 import { playerY, aiY, ballX, ballY, ballVelX, ballVelY } from './states.js';
 import { BALL_SIZE, PADDLE_WIDTH, PADDLE_HEIGHT, AI_X, PLAYER_X, PADDLE_SPEED } from './constants.js';
-import { canvas } from './game.js';
+
+const canvas = getElementById('pongCanvas');
 
 // Draw everything
 export function draw() {
