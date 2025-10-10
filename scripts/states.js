@@ -1,4 +1,4 @@
-import { canvas } from './game.js';
+const canvas = getElementById('pongCanvas');
 
 // State
 export let playerY = canvas.height / 2 - PADDLE_HEIGHT / 2;
