@@ -2,7 +2,7 @@ import { draw, gameLoop } from './functions.js';
 import { PADDLE_HEIGHT } from './constants.js';
 import { playerY } from './states.js';
 
-export const canvas = document.getElementById('pongCanvas');
+const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
 
 // Mouse control
