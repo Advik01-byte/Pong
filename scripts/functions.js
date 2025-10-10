@@ -1,3 +1,5 @@
+import { playerY, aiY, ballX, ballY, ballVelX, ballVelY } from './states.js';
+
 // Draw everything
 export function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -28,7 +30,7 @@ export function draw() {
 }
 
 // Simple AI
-export function updateAI() {
+function updateAI() {
   // Move AI paddle toward ball
   let aiCenter = aiY + PADDLE_HEIGHT / 2;
   if (aiCenter < ballY) {
@@ -42,7 +44,7 @@ export function updateAI() {
 }
 
 // Ball movement and collision
-export function updateBall() {
+function updateBall() {
   ballX += ballVelX;
   ballY += ballVelY;
 
@@ -88,7 +90,7 @@ export function updateBall() {
 }
 
 // Reset ball after score
-export function resetBall(direction) {
+function resetBall(direction) {
   ballX = canvas.width / 2 - BALL_SIZE / 2;
   ballY = canvas.height / 2 - BALL_SIZE / 2;
   ballVelX = BALL_SPEED * direction;
