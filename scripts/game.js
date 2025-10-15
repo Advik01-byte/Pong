@@ -1,7 +1,3 @@
-import { draw, gameLoop } from './functions.js';
-import { PADDLE_HEIGHT } from './constants.js';
-import { playerY } from './states.js';
-
 const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
 
