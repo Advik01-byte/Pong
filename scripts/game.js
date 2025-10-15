@@ -1,6 +1,3 @@
-const canvas = document.getElementById('pongCanvas');
-const ctx = canvas.getContext('2d');
-
 // Mouse control
 canvas.addEventListener('mousemove', (e) => {
   const rect = canvas.getBoundingClientRect();
