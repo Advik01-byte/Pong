@@ -1,5 +1,3 @@
-import { PADDLE_HEIGHT, BALL_SIZE, BALL_SPEED } from './constants.js';
-
 const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
 
