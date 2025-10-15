@@ -78,11 +78,13 @@ function updateBall() {
   // Left wall (AI scores)
   if (ballX <= 0) {
     aiScore++;
+    localStorage.setItem('aiScore', String(aiScore));
     resetBall(-1);
   }
   // Right wall (Player scores)
   if (ballX + BALL_SIZE >= canvas.width) {
     playerScore++;
+    localStorage.setItem('playerScore', String(playerScore));
     resetBall(1);
   }
 }
