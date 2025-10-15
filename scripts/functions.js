@@ -1,5 +1,5 @@
 // Draw everything
-export function draw() {
+function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   // Draw middle line
@@ -96,7 +96,7 @@ function resetBall(direction) {
 }
 
 // Main game loop
-export function gameLoop() {
+function gameLoop() {
   updateAI();
   updateBall();
   draw();
