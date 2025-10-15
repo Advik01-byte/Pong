@@ -14,8 +14,8 @@
   <canvas id="pongCanvas" width="800" height="500"></canvas>
   
   <button onclick="
-      aiScore = 0;
-      playerScore = 0;
+      localStorage.removeItem('aiScore');
+      localStorage.removeItem('playerScore');
   " id="resetButton">
     Reset
   </button>
