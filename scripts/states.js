@@ -14,4 +14,6 @@ let aiScore = localStorage.getItem('aiScore') || 0;
 resetButton.addEventListener('click', () => {
     localStorage.removeItem('playerScore');
     localStorage.removeItem('aiScore');
+    
+    location.reload();
 });
