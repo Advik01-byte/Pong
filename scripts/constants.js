@@ -1,7 +1,5 @@
 const canvas = document.getElementById('pongCanvas');
-if (!canvas) {
-  throw new Error('Canvas element not found');
-}
+const ctx = canvas.getContext('2d');
 
 // Game constants
 export const PADDLE_WIDTH = 10;
