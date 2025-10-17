@@ -37,7 +37,7 @@ h1 {
   box-shadow: 0 0 20px #000;
 }
 
-@media (max-width: 1250px) and (min-width: 1000px) {
+@media (min-width: 1000px) {
   #resetButton {
     margin: 50px;
     font-size: 15px;
