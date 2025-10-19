@@ -21,7 +21,7 @@ body {
 #resetButton1 {
   color: #000000;
   font-weight: bold;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 70px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   font-size: 15px;
@@ -50,7 +50,6 @@ body {
 }
 
 #pongHeading {
-  margin-top: 2px;
   display: block;
   text-align: center;
 }
