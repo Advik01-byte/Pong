@@ -10,7 +10,7 @@ body {
 #pongCanvas {
   background: #111;
   display: inline-block;
-  margin: 0 auto;
+  margin: auto;
   border: 2px solid #fff;
   border-radius: 8px;
   box-shadow: 0 0 20px #000;
