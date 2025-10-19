@@ -10,6 +10,7 @@ body {
 h1 {
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #pongCanvas {
@@ -19,6 +20,8 @@ h1 {
   border: 2px solid #fff;
   border-radius: 8px;
   box-shadow: 0 0 20px #000;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #resetButton {
@@ -32,6 +35,7 @@ h1 {
   padding: 15px 22.5px;
   transition: box-shadow 150ms;
   display: inline-block;
+  vertical-align: middle;
 }
 
 #resetButton:hover {
