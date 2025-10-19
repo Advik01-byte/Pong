@@ -6,7 +6,7 @@ let ballY = canvas.height / 2 - BALL_SIZE / 2;
 let ballVelX = BALL_SPEED * (Math.random() > 0.5 ? 1 : -1);
 let ballVelY = BALL_SPEED * (Math.random() > 0.5 ? 1 : -1);
 
-const resetButton = document.getElementById('resetButton');
+const resetButton = document.getElementById('resetButton1');
 
 let playerScore = localStorage.getItem('playerScore') || 0;
 let aiScore = localStorage.getItem('aiScore') || 0;
