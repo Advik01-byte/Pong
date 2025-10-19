@@ -10,7 +10,7 @@ body {
 #pongCanvas {
   background: #111;
   display: inline-block;
-  margin: 0 auto;
+  margin: auto;
   border: 2px solid #fff;
   border-radius: 8px;
   box-shadow: 0 0 20px #000;
@@ -21,7 +21,7 @@ body {
 #resetButton {
   color: #000000;
   font-weight: bold;
-  margin: 0 0 0 30px;
+  margin: 0 auto;
   border: 1px solid #ffffff;
   border-radius: 10px;
   font-size: 15px;
