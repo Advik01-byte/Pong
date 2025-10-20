@@ -10,7 +10,6 @@ Steps to play the game:
 2. Play with the AI.
 
 Have fun :smile:!
-____________________________________________
 
 > :bulb: Tip
 > ===========
